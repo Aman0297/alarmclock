@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock">
+    <div class="time"></div>
+    <div class="buttons">
+      <button class="set-btn">Set Alarm</button>
+      <button class="clear-btn">Clear Alarm</button>
+    </div>
+    <div class="alarm-time">
+      <label for="alarm">Alarm Time:</label>
+      <input type="time" id="alarm" name="alarm">
+    </div>
+  </div>
+
+  <audio id="alarm-sound" src="alarm.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
